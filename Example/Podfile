@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JYReader_Example' do
+  pod 'JYReader', :path => '../'
+
+  target 'JYReader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
