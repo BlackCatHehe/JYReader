@@ -1,0 +1,6 @@
+framework module JYReader {
+  umbrella header "JYReader-umbrella.h"
+
+  export *
+  module * { export * }
+}

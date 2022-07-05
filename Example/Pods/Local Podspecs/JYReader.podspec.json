@@ -1,0 +1,22 @@
+{
+  "name": "JYReader",
+  "version": "0.1.0",
+  "summary": "A short description of JYReader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zjy/JYReader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zjy": "zjy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zjy/JYReader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "JYReader/Classes/**/*"
+}

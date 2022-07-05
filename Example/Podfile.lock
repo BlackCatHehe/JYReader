@@ -1,0 +1,16 @@
+PODS:
+  - JYReader (0.1.0)
+
+DEPENDENCIES:
+  - JYReader (from `../`)
+
+EXTERNAL SOURCES:
+  JYReader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JYReader: 0071dc9c675c3d9f542d0ac850847cb009edabca
+
+PODFILE CHECKSUM: 5c482c5d6962b4a891d1feb3be06dc7df5c5c7f3
+
+COCOAPODS: 1.11.3
