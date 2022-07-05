@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zjy/JYReader'
+  s.homepage         = 'https://github.com/BlackCatHehe/JYReader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zjy' => 'zjy@gmail.com' }
-  s.source           = { :git => 'https://github.com/zjy/JYReader.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BlackCatHehe/JYReader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'JYReader/Classes/**/*'
+  s.source_files = 'JYReader/Sources/**/*'
   
   # s.resource_bundles = {
   #   'JYReader' => ['JYReader/Assets/*.png']

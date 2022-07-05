@@ -12,7 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let readerManager = JYReaderManager()
+        readerManager.chapterData = ChapterData.chapterDatas
+        
+        let readerMainVc = readerManager.generateReaderView()
+        self.navigationController?.setViewControllers([readerMainVc], animated: false)
+
+        
     }
 
     override func didReceiveMemoryWarning() {

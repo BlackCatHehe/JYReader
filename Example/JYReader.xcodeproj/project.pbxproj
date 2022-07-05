@@ -13,19 +13,15 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		E05DD4463C4D60A58E6332FA /* Pods_JYReader_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D815556B24ACCC503BDA1E62 /* Pods_JYReader_Tests.framework */; };
+		C1ADAE6D2873E81200F8806E /* JYReaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADAE6B2873E81200F8806E /* JYReaderController.swift */; };
+		C1ADAE6E2873E81200F8806E /* JYScrollReaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADAE6C2873E81200F8806E /* JYScrollReaderController.swift */; };
+		C1ADAE7028740CDF00F8806E /* JYReaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADAE6F28740CDE00F8806E /* JYReaderManager.swift */; };
+		C1ADAE7228741C7500F8806E /* JYPanReaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADAE7128741C7500F8806E /* JYPanReaderController.swift */; };
+		C1ADAE7428741FE600F8806E /* JYReaderNormalVerTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADAE7328741FE600F8806E /* JYReaderNormalVerTextCell.swift */; };
+		C1ADAE7628741FFF00F8806E /* JYReaderNormalHorTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADAE7528741FFF00F8806E /* JYReaderNormalHorTextCell.swift */; };
+		C1ADAE78287420F900F8806E /* JYReaderNormalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADAE77287420F900F8806E /* JYReaderNormalTextView.swift */; };
+		C1ADAE7A287423AF00F8806E /* String+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ADAE79287423AF00F8806E /* String+Size.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = JYReader;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		226CCB88DC8D8BD6D0C89C6F /* Pods-JYReader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYReader_Tests.release.xcconfig"; path = "Target Support Files/Pods-JYReader_Tests/Pods-JYReader_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -38,14 +34,19 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* JYReader_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYReader_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		60910E1B9CB4480FC5878309 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8EBBFA1345150CAACC73F36C /* Pods-JYReader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYReader_Example.release.xcconfig"; path = "Target Support Files/Pods-JYReader_Example/Pods-JYReader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A22ECEBE914D5C26CA15C78A /* Pods_JYReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYReader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA618E2FAFE8A97FC962EF16 /* JYReader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JYReader.podspec; path = ../JYReader.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA8A5B42D2B7A2512D0EB75E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C1ADAE6B2873E81200F8806E /* JYReaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYReaderController.swift; sourceTree = "<group>"; };
+		C1ADAE6C2873E81200F8806E /* JYScrollReaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYScrollReaderController.swift; sourceTree = "<group>"; };
+		C1ADAE6F28740CDE00F8806E /* JYReaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYReaderManager.swift; sourceTree = "<group>"; };
+		C1ADAE7128741C7500F8806E /* JYPanReaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYPanReaderController.swift; sourceTree = "<group>"; };
+		C1ADAE7328741FE600F8806E /* JYReaderNormalVerTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYReaderNormalVerTextCell.swift; sourceTree = "<group>"; };
+		C1ADAE7528741FFF00F8806E /* JYReaderNormalHorTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYReaderNormalHorTextCell.swift; sourceTree = "<group>"; };
+		C1ADAE77287420F900F8806E /* JYReaderNormalTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYReaderNormalTextView.swift; sourceTree = "<group>"; };
+		C1ADAE79287423AF00F8806E /* String+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Size.swift"; sourceTree = "<group>"; };
 		D815556B24ACCC503BDA1E62 /* Pods_JYReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYReader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,23 +59,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E05DD4463C4D60A58E6332FA /* Pods_JYReader_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				C1ADAE6A2873E81200F8806E /* Sources */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for JYReader */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				C7F2EC8CF49EB0DDC54B3179 /* Pods */,
 				84FB79434A252D85A687A013 /* Frameworks */,
@@ -85,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* JYReader_Example.app */,
-				607FACE51AFB9204008FA782 /* JYReader_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,23 +104,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +121,62 @@
 				D815556B24ACCC503BDA1E62 /* Pods_JYReader_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1ADAE6A2873E81200F8806E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C1ADAE7E28743B4F00F8806E /* ReaderView */,
+				C1ADAE7F28743B5900F8806E /* Manager */,
+				C1ADAE7B28743B2B00F8806E /* Extension */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		C1ADAE7B28743B2B00F8806E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C1ADAE79287423AF00F8806E /* String+Size.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C1ADAE7C28743B3600F8806E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C1ADAE7328741FE600F8806E /* JYReaderNormalVerTextCell.swift */,
+				C1ADAE7528741FFF00F8806E /* JYReaderNormalHorTextCell.swift */,
+				C1ADAE77287420F900F8806E /* JYReaderNormalTextView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C1ADAE7D28743B4300F8806E /* ReaderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				C1ADAE6C2873E81200F8806E /* JYScrollReaderController.swift */,
+				C1ADAE7128741C7500F8806E /* JYPanReaderController.swift */,
+				C1ADAE7C28743B3600F8806E /* Cells */,
+			);
+			path = ReaderTextView;
+			sourceTree = "<group>";
+		};
+		C1ADAE7E28743B4F00F8806E /* ReaderView */ = {
+			isa = PBXGroup;
+			children = (
+				C1ADAE6B2873E81200F8806E /* JYReaderController.swift */,
+				C1ADAE7D28743B4300F8806E /* ReaderTextView */,
+			);
+			path = ReaderView;
+			sourceTree = "<group>";
+		};
+		C1ADAE7F28743B5900F8806E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C1ADAE6F28740CDE00F8806E /* JYReaderManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		C7F2EC8CF49EB0DDC54B3179 /* Pods */ = {
@@ -181,25 +212,6 @@
 			productReference = 607FACD01AFB9204008FA782 /* JYReader_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* JYReader_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JYReader_Tests" */;
-			buildPhases = (
-				1817D130163F3E15D29F2E0C /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = JYReader_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* JYReader_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,11 +225,6 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -236,7 +243,6 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* JYReader_Example */,
-				607FACE41AFB9204008FA782 /* JYReader_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,38 +258,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1817D130163F3E15D29F2E0C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JYReader_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		63176209B9C8DF47393B8C7F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,27 +309,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C1ADAE7228741C7500F8806E /* JYPanReaderController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				C1ADAE78287420F900F8806E /* JYReaderNormalTextView.swift in Sources */,
+				C1ADAE7628741FFF00F8806E /* JYReaderNormalHorTextCell.swift in Sources */,
+				C1ADAE7428741FE600F8806E /* JYReaderNormalVerTextCell.swift in Sources */,
+				C1ADAE6E2873E81200F8806E /* JYScrollReaderController.swift in Sources */,
+				C1ADAE7A287423AF00F8806E /* String+Size.swift in Sources */,
+				C1ADAE6D2873E81200F8806E /* JYReaderController.swift in Sources */,
+				C1ADAE7028740CDF00F8806E /* JYReaderManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* JYReader_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -419,11 +388,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -465,10 +435,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -479,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JYReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,52 +466,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JYReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E548E328187687ABE956CEB /* Pods-JYReader_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYReader_Example.app/JYReader_Example";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 226CCB88DC8D8BD6D0C89C6F /* Pods-JYReader_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYReader_Example.app/JYReader_Example";
 			};
 			name = Release;
 		};
@@ -560,15 +493,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JYReader_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
